@@ -1,0 +1,31 @@
+Pflichtenheft Brettspiele - Version 1.2
+
+... ist meine persönliche Dokumentvorlage für Pflichtenhefte.
+Jeder, der diese nutzen will, kann dies uneingeschränkt tun.
+Vergessen Sie nur nicht meinen Namen herauszulöschen!
+
+Voraussetzung:
+LaTeX-Installation (ich verwende MikTeX 2.7 für Windows)
+Kompilieren unter Windows mit make.bat und make2PDF.bat möglich.
+
+
+Haftungsausschluss:
+Haftung übernehme ich allerdings keine.
+Für Fehlerfreiheit übernehme ich keine Garantie.
+Verwendung auf eigene Gefahr!
+
+
+Ansonsten viel Erfolg mit dieser Vorlage.
+
+Mit freundlichen Grüßen
+
+Stefan K. Baur
+
+
+P.s.: Verbesserungsvorschläge sind immer willkommen.
+
+Domäne:
+www.stefan-baur.de
+
+Kontakt:
+info@stefan-baur.de
