@@ -12,38 +12,38 @@ Jeder Punkt \textbf{/D???/} stellt im Prinzip einen Datensatz dar.
       \item Kennung
         \begin{itemize}
           \item \textbf{Benutzername} \textit{(eindeutig)}
-          \item \textbf{Passwort} \textit{(verschlüsselt)}
+          \item \textbf{Passwort} \textit{(verschlÃ¼sselt)}
         \end{itemize}
-      \item Persönliche Daten
+      \item PersÃ¶nliche Daten
         \begin{itemize}
           \item Informationen zur eigenen Person
             \begin{itemize}
               \item \textbf{Vorname}
               \item \textbf{Nachname}
               \item \textbf{Alter}
-              \item \textbf{Geschlecht} \textit{(männlich, weiblich)}
+              \item \textbf{Geschlecht} \textit{(mÃ¤nnlich, weiblich)}
               \item kleines \textbf{Foto}
-              \item \textbf{Begrüßungstext}
+              \item \textbf{BegrÃ¼ÃŸungstext}
               \item \textbf{Slogan}
             \end{itemize}
           \item Kontaktinformationen
             \begin{itemize}
-              \item \textbf{Straße und Hausnummer}
+              \item \textbf{StraÃŸe und Hausnummer}
               \item \textbf{Postleitzahl}
               \item \textbf{Ort}
               \item \textbf{Land}
               \item \textbf{Telefon}
               \item \textbf{Fax}
-              \item \textbf{eMail-Adresse} \textit{(eindeutig, gültig)}
+              \item \textbf{eMail-Adresse} \textit{(eindeutig, gÃ¼ltig)}
               \item \textbf{Homepage}
             \end{itemize}
-          \item \textbf{Sichtbarkeit} der einzelnen Einträge der persönlichen Daten
+          \item \textbf{Sichtbarkeit} der einzelnen EintrÃ¤ge der persÃ¶nlichen Daten
         \end{itemize}
       \item Sonstige Daten
         \begin{itemize}
           \item \textbf{Registrierungsdatum} \textit{(Datum)}
           \item \textbf{letzte Anmeldung} \textit{(Datum)}
-          \item \textbf{Besuchszähler}
+          \item \textbf{BesuchszÃ¤hler}
           \item \textbf{Status} \textit{(Administrator, Benutzer)}
         \end{itemize}
     \end{itemize}
@@ -51,12 +51,12 @@ Jeder Punkt \textbf{/D???/} stellt im Prinzip einen Datensatz dar.
 
 \begin{description}
   \item[/D020/]
-    \textit{Profildaten:} Das persönliche Profil eines Benutzers zu einem Spieltyp.
+    \textit{Profildaten:} Das persÃ¶nliche Profil eines Benutzers zu einem Spieltyp.
     Die Anzahl der offenen, gewonnen, verlorenen und unentschiedenen Spiele
     wird zur Laufzeit ermittelt und nicht explizit im Profil gespeichert!
     \begin{itemize}
       \item \textbf{BenutzerID}
-      \item \textbf{Spieletyp} \textit{(Mühle, Dame oder Schach)}
+      \item \textbf{Spieletyp} \textit{(MÃ¼hle, Dame oder Schach)}
       \item \textbf{Wertungszahl}
       \item Sichtbarkeit
         \begin{itemize}
@@ -70,7 +70,7 @@ Jeder Punkt \textbf{/D???/} stellt im Prinzip einen Datensatz dar.
 
 \begin{description}
   \item[/D030/]
-    \textit{Konfigurationsdaten:} Die persönliche Konfiguration eines Benutzers:
+    \textit{Konfigurationsdaten:} Die persÃ¶nliche Konfiguration eines Benutzers:
     \begin{itemize}
       \item \textbf{BenutzerID}
       \item Darstellungsfarben
@@ -88,12 +88,12 @@ Jeder Punkt \textbf{/D???/} stellt im Prinzip einen Datensatz dar.
         \end{itemize}
       \item Ablauflogik
         \begin{itemize}
-          \item vor Ausführung eines Spielzuges Bestätigungsfenster anzeigen
-          \item nach Ausführung eines Spielzuges
+          \item vor AusfÃ¼hrung eines Spielzuges BestÃ¤tigungsfenster anzeigen
+          \item nach AusfÃ¼hrung eines Spielzuges
             \begin{itemize}
               \item aktuelles Spiel erneut anzeigen oder
               \item alle eigenen offenen Spiele anzeigen oder
-              \item das nächste offene Spiel anzeigen
+              \item das nÃ¤chste offene Spiel anzeigen
             \end{itemize}
         \end{itemize}
     \end{itemize}
@@ -104,9 +104,9 @@ Jeder Punkt \textbf{/D???/} stellt im Prinzip einen Datensatz dar.
     \textit{Spieldaten:} Der aktuelle Status eines einzelnen Spieles:
     \begin{itemize}
       \item \textbf{SpielID} \textit{(eindeutig)}
-      \item \textbf{Spieletyp} \textit{(Mühle, Dame oder Schach)}
+      \item \textbf{Spieletyp} \textit{(MÃ¼hle, Dame oder Schach)}
       \item \textbf{Status} \textit{(Initiiert, Laufend, Weiss, Schwarz oder Unentschieden)}
-      \item \textbf{Anzahl der Halbzüge}
+      \item \textbf{Anzahl der HalbzÃ¼ge}
       \item Spieler 1 und 2 \textit{(Weiss und Schwarz)} jeweils:
         \begin{itemize}
           \item \textbf{BenutzerID}

@@ -4,4 +4,15 @@ pdf:
 	ps2pdf Pflichtenheft.ps Pflichtenheft.pdf
 
 clean:
-	rm Pflichtenheft.aux Pflichtenheft.dvi Pflichtenheft.log Pflichtenheft.out Pflichtenheft.pdf Pflichtenheft.ps* Pflichtenheft.toc
+	rm \
+		*.aux \
+		*.dvi \
+		*.fdb_latexmk \
+		*.fls \
+		*.hst \
+		*.log \
+		*.out \
+		*.pdf \
+		*.synctex.gz \
+		*.toc \
+		*.ver

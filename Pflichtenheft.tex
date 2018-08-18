@@ -1,11 +1,15 @@
-\documentclass[a4paper, 11pt, ngerman, fleqn]{article}
-\usepackage[ansinew]{inputenc}
+% Template taken from: https://www.tu-ilmenau.de/sse/lehre-archiv/winter-201314/softwareprojekt/das-pflichtenheft/
+% Link: https://www.tu-ilmenau.de/fileadmin/public/sse/Lehre/Softwareprojekt/Allgemein/Pflichtenhef_vorlage.zip
+
+\documentclass[a4paper, 11pt, ngerman]{article}
+\usepackage[utf8]{inputenc}
 \usepackage{babel}
 \usepackage{ngerman}
 \usepackage{coordsys,logsys,color}
 \usepackage{german,fancyhdr}
 \usepackage{hyperref}
-\usepackage{texdraw}
+\usepackage[tablegrid]{vhistory}
+\usepackage{lastpage}
 \input{txdtools}
 
 \NeedsTeXFormat{LaTeX2e}
@@ -13,23 +17,31 @@
 \definecolor{darkblue}{rgb}{0,0,.6}
 \hypersetup{pdftex=false, colorlinks=true, breaklinks=true, linkcolor=darkblue, menucolor=darkblue, pagecolor=darkblue, urlcolor=darkblue, citecolor=darkblue}
 
-\pagestyle{fancy}
+\pagestyle{fancyplain}
+\fancyhf{}
+\rhead{\textit{\leftmark}}
+\rfoot{\pagenumber}
+
+\fancypagestyle{plain}{
+  \lhead{}
+  \renewcommand{\headrulewidth}{0pt}
+}
 
 \input{_Pflichtenheft.tex}
 
 \begin{document}
-  \input{PH00-Titelblatt} \newpage
-  \tableofcontents \newpage
-  \input{PH01-Zielbestimmungen} \newpage
-  \input{PH02-Produkteinsatz} \newpage
-  \input{PH03-Produktumgebung} \newpage
-  \input{PH04-Produktfunktionen} \newpage
-  \input{PH05-Produktdaten} \newpage
-  \input{PH06-Produktleistungen} \newpage
-  \input{PH07-Benutzungsoberflaeche} \newpage
-  \input{PH08-Qualitaetszielbestimmungen} \newpage
-  \input{PH09-Testszenarien} \newpage
-  \input{PH10-Entwicklungsumgebung} \newpage
-  \input{PH11-Ergaenzungen} \newpage
-  \input{PH12-Glossar}
+\input{PH00-Titelblatt} \newpage
+\tableofcontents \newpage
+\input{PH01-Zielbestimmungen} \newpage
+\input{PH02-Produkteinsatz} \newpage
+\input{PH03-Produktumgebung} \newpage
+\input{PH04-Produktfunktionen} \newpage
+\input{PH05-Produktdaten} \newpage
+\input{PH06-Produktleistungen} \newpage
+\input{PH07-Benutzungsoberflaeche} \newpage
+\input{PH08-Qualitaetszielbestimmungen} \newpage
+\input{PH09-Testszenarien} \newpage
+\input{PH10-Entwicklungsumgebung} \newpage
+\input{PH11-Ergaenzungen} \newpage
+\input{PH12-Glossar}
 \end{document}
